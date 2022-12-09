@@ -1,5 +1,6 @@
 package bisca;
 
+// Para as cartas serem criadas individualmente eu preiciso de um construtor para elas.
 public class Carta {
     private String nipe;
     private String face;
