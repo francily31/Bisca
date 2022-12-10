@@ -21,7 +21,7 @@ public class Baralho {
             this.cartas.add(new Carta("Espadas", vfaces[i], vpesos[i]));
             this.cartas.add(new Carta("Ouros", vfaces[i], vpesos[i]));
         }
-
+        // função que embaralha
         Collections.shuffle(cartas);
     }
 
