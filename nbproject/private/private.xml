@@ -3,9 +3,16 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+<<<<<<< HEAD
             <file>file:/C:/Users/Dark9/OneDrive/Documentos/NetBeansProjects/Bisca2/src/bisca/Baralho.java</file>
             <file>file:/C:/Users/Dark9/OneDrive/Documentos/NetBeansProjects/Bisca2/src/bisca/Bisca.java</file>
             <file>file:/C:/Users/Dark9/OneDrive/Documentos/NetBeansProjects/Bisca2/src/bisca/Carta.java</file>
+=======
+            <file>file:/C:/Users/thiag/Desktop/bisca/Bisca/src/bisca/Carta.java</file>
+            <file>file:/C:/Users/thiag/Desktop/bisca/Bisca/src/bisca/Bisca.java</file>
+            <file>file:/C:/Users/thiag/Desktop/bisca/Bisca/src/bisca/Jogador.java</file>
+            <file>file:/C:/Users/thiag/Desktop/bisca/Bisca/src/bisca/Baralho.java</file>
+>>>>>>> 3a27bd6c5becc6185e459ce3ae08f5628300062a
         </group>
     </open-files>
 </project-private>
