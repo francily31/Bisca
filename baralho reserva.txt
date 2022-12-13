@@ -1,0 +1,58 @@
+package bisca;
+
+import java.util.ArrayList;
+import java.util.List;
+
+//Crio o Baralho
+public class Baralho {
+
+  private final List<Carta> cartas;
+
+  public Baralho() {
+    cartas = new ArrayList<>();
+
+    cartas.add(new Carta("A", "Copas", 11));
+    cartas.add(new Carta("A", "Paus", 11));
+    cartas.add(new Carta("A", "Espada", 11));
+    cartas.add(new Carta("A", "Ouro", 11));
+    cartas.add(new Carta("2", "Copas", 0));
+    cartas.add(new Carta("2", "Paus", 0));
+    cartas.add(new Carta("2", "Espada", 0));
+    cartas.add(new Carta("2", "Ouro", 0));
+    cartas.add(new Carta("3", "Copas", 0));
+    cartas.add(new Carta("3", "Paus", 0));
+    cartas.add(new Carta("3", "Espada", 0));
+    cartas.add(new Carta("3", "Ouro", 0));
+    cartas.add(new Carta("4", "Copas", 0));
+    cartas.add(new Carta("4", "Paus", 0));
+    cartas.add(new Carta("4", "Espada", 0));
+    cartas.add(new Carta("4", "Ouro", 0));
+    cartas.add(new Carta("5", "Copas", 0));
+    cartas.add(new Carta("5", "Paus", 0));
+    cartas.add(new Carta("5", "Espada", 0));
+    cartas.add(new Carta("5", "Ouro", 0));
+    cartas.add(new Carta("6", "Copas", 0));
+    cartas.add(new Carta("6", "Paus", 0));
+    cartas.add(new Carta("6", "Espada", 0));
+    cartas.add(new Carta("7", "Copas", 10));
+    cartas.add(new Carta("7", "Paus", 10));
+    cartas.add(new Carta("7", "Espada", 10));
+    cartas.add(new Carta("7", "Ouro", 10));
+    cartas.add(new Carta("J", "Copas", 3));
+    cartas.add(new Carta("J", "Paus", 3));
+    cartas.add(new Carta("J", "Espada", 3));
+    cartas.add(new Carta("J", "Ouro", 3));
+    cartas.add(new Carta("Q", "Copas", 2));
+    cartas.add(new Carta("Q", "Paus", 2));
+    cartas.add(new Carta("Q", "Espada", 2));
+    cartas.add(new Carta("Q", "Ouro", 2));
+    cartas.add(new Carta("K", "Copas", 4));
+    cartas.add(new Carta("K", "Paus", 4));
+    cartas.add(new Carta("K", "Espada", 4));
+    cartas.add(new Carta("K", "Ouro", 4));
+      }
+
+     public List<Carta> getCartas() {
+    return cartas;
+}
+}
