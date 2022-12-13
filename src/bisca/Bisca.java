@@ -1,7 +1,5 @@
 package bisca;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class Bisca {
 

@@ -1,38 +1,48 @@
 package bisca;
 
-public class Jogador {
+import java.util.List;
+import java.util.ArrayList;
+
+//Extrutura do jogador
+public class Jogador{
+    private String Nome;
+    private int Pontos;
+    private List<Carta> cartasjogador = new ArrayList<>();
     
-    private final Carta[] hand; //mão do jogador
-    private final int MAX_CARTAS = 3; //maximo de cartas que pode ter na mão
-    private int cartaAtual;  //quantas cartas ele tem na mão
-    
-    //atributos do jogador
-    public Jogador() {  
-        hand = new Carta[MAX_CARTAS];
-        cartaAtual = 0;
-}
-    //se a mão ainda não está cheia ele recebe ate encher
-    public void receberCarta(Carta carta) {
-        if (cartaAtual < MAX_CARTAS) {
-            hand[cartaAtual++] = carta;
-        }
+    public Jogador (String Nome, int Pontos, List<Carta> cartasjogador){
+        this.Nome = Nome;
+        this.Pontos = Pontos;
+        this.cartasjogador = cartasjogador;
     }
-    
-    //inicia a carta
-    public Carta iniciarCarta(int index) {
-        Carta temp = hand[index]; // recupero a carta escolhida
-        hand[index] = null; // remove a carta da mão
-        return temp; // retorna a carta escolhida
+
+    public String getNome() {
+        return Nome;
     }
-    
+
+    public void setNome(String Nome) {
+        this.Nome = Nome;
+    }
+
+    public int getPontos() {
+        return Pontos;
+    }
+
+    public void setPontos(int Pontos) {
+        this.Pontos = Pontos;
+    }
+
+    public List<Carta> getCartasjogador() {
+        return cartasjogador;
+    }
+
+    public void setCartasjogador(List<Carta> cartasjogador) {
+        this.cartasjogador = cartasjogador;
+    }
+
     @Override
-    
-    //imprime as 3 cartas do jogador
     public String toString() {
-        String Jogador = "";
-        for (int i = 0; i < hand.length; i++) {
-            Jogador += "(" + i + ") " + hand[i] + " ";
-        }
-        return Jogador;
+        return "Jogador{" + "Nome=" + Nome + ", Pontos=" + Pontos + ", cartasjogador=" + cartasjogador + '}';
     }
+    
+    
 }
