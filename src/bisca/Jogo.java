@@ -5,10 +5,9 @@ import java.util.Collections;
 import java.util.List;
 
 public class Jogo {
-    int jogada=0;
-    int jogar=0;
-    int comprar=0; 
-
+  int jogada = 0;
+  int jogar = 0;
+  int comprar=0;
 
 int contarPontos(int[] mao) {
   // Inicializar variável para armazenar a contagem de pontos
@@ -32,8 +31,7 @@ int contarPontos(int[] mao) {
   // Retornar a contagem de pontos
   return pontos;
   
+  //Bom Dia
       
 
 }
-
-
