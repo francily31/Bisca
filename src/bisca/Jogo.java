@@ -23,8 +23,17 @@ int contarPontos(int[] mao) {
     // (a regra de contar pontos pode variar de acordo com a variante de bisca que está sendo jogada)
     pontos += valorCarta;
   }
-
+//⦁120: Se um jogador fizer 120 pontos, ganha-se 2 pontos, se for copas, 3 pontos;     
+  if (pontos == 120) {
+        System.out.print(pontos+2);
+  if else (pontos== 120 && trunfo==nipe.copas);
+        System.out.print(pontos+3);
+        
   // Retornar a contagem de pontos
   return pontos;
+  
+      
 
 }
+
+
