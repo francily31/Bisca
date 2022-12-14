@@ -46,10 +46,14 @@ public class Jogador {
         this.cartasjogador = cartasjogador;
     }
 
+    
+    int consultarPontos() {
+        return this.pontos;
 
     @Override
     public String toString() {
         return "Jogador{" + "Nome=" + Nome + ", Pontos=" + Pontos + ", cartasjogador=" + cartasjogador + '}';
     }
 
+}
 }
