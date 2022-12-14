@@ -29,6 +29,13 @@ public class Baralho {
         }
         
         //aqui se inicia o desenvolvimento das rodadas
+        int rodada = 1;
+        int pontos = 0;
+        
+        int jogada_1 = jogada.nextInt(2);
+        int jogada_2 = jogada.nextInt(2);
+        
+        String carta = cartas.get(rand.nextInt(cartas.size()));
         List<String> Jogador = new ArrayList<>();
         
         //começa...
@@ -38,6 +45,8 @@ public class Baralho {
         for (int x = 0; x < 17; x++){
             String carta_jogador = cartas.get(rand.nextInt(cartas.size()));
             System.out.println("...." + rodada);
+            
+            
           
         }
         
