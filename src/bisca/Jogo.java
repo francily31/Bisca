@@ -5,6 +5,13 @@ import java.util.Collections;
 import java.util.List;
 
 public class Jogo {
+
+// Cria um gerador de números aleatórios
+    Random random = new Random();
+
+// Gera um número aleatório entre 1 e 40
+    int numeroSorteado = random.nextInt(40) + 1;
+
   int jogada = 0;
   int jogar = 0;
   int comprar=0;
