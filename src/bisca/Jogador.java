@@ -43,6 +43,9 @@ public class Jogador {
         this.cartasjogador = cartasjogador;
     }
 
+    
+    int consultarPontos() {
+        return this.pontos;
 
     @Override
     public String toString() {
