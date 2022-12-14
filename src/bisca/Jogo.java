@@ -28,6 +28,14 @@ int contarPontos(int[] mao) {
   if else (pontos== 120 && trunfo==nipe.copas);
         System.out.print(pontos+3);
         
+ //61: Se um jogador obtiver 61 pontos, automaticamente ele ganha 1 ponto, se for copas, 2 pontos;
+
+        if else (pontosr => 61){
+            System.out.print(pontos+1);
+            
+        if else (pontos>=61 && trunfo==nipe.copas){
+            System.out.print(pontos+2);
+        
   // Retornar a contagem de pontos
   return pontos;
   
