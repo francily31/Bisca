@@ -28,41 +28,10 @@ public class Baralho {
             this.cartas.add(new Carta("Ouros", vfaces[i], vpesos[i]));
         }
         
-        //aqui se inicia o desenvolvimento das rodadas
-        int rodada = 1;
-        int pontos = 0;
-        
-        int jogada_1 = jogada.nextInt(2);
-        int jogada_2 = jogada.nextInt(2);
-        
-        String carta = cartas.get(rand.nextInt(cartas.size()));
-        List<String> Jogador = new ArrayList<>();
-        
-        //começa...
-        
-        String[] cartas = {"Copas", "Espadas", "Ouros"};
-        for (int i = 0; i < 3; j++){
-        for (int x = 0; x < 17; x++){
-            String carta_jogador = cartas.get(rand.nextInt(cartas.size()));
-            System.out.println("...." + rodada);
-            
-            
-          
-        }
-        
-        while (contar < 3){
-            System.out.println("cartas");
-        }
-        
-   
+
     }
         
-        
-        
-    }
-    
-    //o baralho estava printando de outro jeito
-    
+
     @Override
     public String toString() {
           StringBuilder sb = new StringBuilder();
