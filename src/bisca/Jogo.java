@@ -3,6 +3,7 @@ package bisca;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Random;
 
 public class Jogo {
 
@@ -23,6 +24,10 @@ public class Jogo {
     } else {
       naipeSorteado = "Paus";
     }
+
+    //era pra retornar 
+
+return this.nipe;
 
     // Imprime o naipe sorteado
     System.out.println("O naipe sorteado foi: " + naipeSorteado);
