@@ -12,6 +12,21 @@ public class Jogo {
 // Gera um número aleatório entre 1 e 40
     int numeroSorteado = random.nextInt(40) + 1;
 
+   // Converte o número sorteado em um naipe
+    String naipeSorteado;
+    if (numeroSorteado >= 0 && numeroSorteado <= 10) {
+      naipeSorteado = "Espadas";
+    } else if (numeroSorteado >= 11 && numeroSorteado <= 20) {
+      naipeSorteado = "Copas";
+    } else if (numeroSorteado >= 21 && numeroSorteado <= 30) {
+      naipeSorteado = "Ouros";
+    } else {
+      naipeSorteado = "Paus";
+    }
+
+    // Imprime o naipe sorteado
+    System.out.println("O naipe sorteado foi: " + naipeSorteado);
+
   int jogada = 0;
   int jogar = 0;
   int comprar=0;
