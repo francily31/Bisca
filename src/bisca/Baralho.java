@@ -1,5 +1,6 @@
 package bisca;
 
+import java.util.Random;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
@@ -7,7 +8,11 @@ import java.util.List;
 //Crio o Baralho
 public class Baralho {
     
+    int rodada = 0;
+        int contar = 3;
+    
     private List<Carta> cartas;
+    private List<Jogador> jogador;
 
     public Baralho() {
         this.cartas = new ArrayList<>();
@@ -23,7 +28,30 @@ public class Baralho {
             this.cartas.add(new Carta("Ouros", vfaces[i], vpesos[i]));
         }
         
+        //aqui se inicia o desenvolvimento das rodadas
+        List<String> Jogador = new ArrayList<>();
+        
+        //começa...
+        
+        for (int i =)
+        for (int x = 0; x < 17; x++){
+            System.out.println("...." + rodada);
+          
+ 
+        }
+        
+        while (contar < 3){
+            System.out.println("cartas");
+        }
+        
+   
     }
+        
+        
+        
+    }
+    
+    //o baralho estava printando de outro jeito
     
     @Override
     public String toString() {

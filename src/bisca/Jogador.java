@@ -16,6 +16,7 @@ public class Jogador {
     }
 
     public Jogador() {
+        
     }
 
     public String getNome() {
