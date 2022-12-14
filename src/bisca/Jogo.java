@@ -24,6 +24,7 @@ int contarPontos(int[] mao) {
     pontos += valorCarta;
   }
 
-    
+  // Retornar a contagem de pontos
+  return pontos;
 
 }
