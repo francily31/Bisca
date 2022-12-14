@@ -31,6 +31,8 @@ int contarPontos(int[] mao) {
   // Retornar a contagem de pontos
   return pontos;
   
+
+  //Bom Dia
   //Bom Dia
       
 
