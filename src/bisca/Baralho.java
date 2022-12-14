@@ -33,11 +33,12 @@ public class Baralho {
         
         //começa...
         
-        for (int i =)
+        String[] cartas = {"Copas", "Espadas", "Ouros"};
+        for (int i = 0; i < 3; j++){
         for (int x = 0; x < 17; x++){
+            String carta_jogador = cartas.get(rand.nextInt(cartas.size()));
             System.out.println("...." + rodada);
           
- 
         }
         
         while (contar < 3){

@@ -5,7 +5,10 @@ import java.util.ArrayList;
 
 //Extrutura do jogador
 public class Jogador {
-    private String Nome;
+    private Baralho baralho;
+    private Carta carta;
+    
+  
     private int Pontos;
     private List<Carta> cartasjogador = new ArrayList<>();
 
