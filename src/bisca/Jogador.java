@@ -4,15 +4,18 @@ import java.util.List;
 import java.util.ArrayList;
 
 //Extrutura do jogador
-public class Jogador{
+public class Jogador {
     private String Nome;
     private int Pontos;
     private List<Carta> cartasjogador = new ArrayList<>();
-    
-    public Jogador (String Nome, int Pontos, List<Carta> cartasjogador){
+
+    public Jogador(String Nome, int Pontos, List<Carta> cartasjogador) {
         this.Nome = Nome;
         this.Pontos = Pontos;
         this.cartasjogador = cartasjogador;
+    }
+
+    public Jogador() {
     }
 
     public String getNome() {
@@ -39,10 +42,10 @@ public class Jogador{
         this.cartasjogador = cartasjogador;
     }
 
+
     @Override
     public String toString() {
         return "Jogador{" + "Nome=" + Nome + ", Pontos=" + Pontos + ", cartasjogador=" + cartasjogador + '}';
     }
-    
-    
+
 }

@@ -5,8 +5,8 @@ public class Carta {
     private String nipe;
     private String face;
     private int peso;
-    
-    public Carta( String face,String nipe, int peso) {
+
+    public Carta(String face, String nipe, int peso) {
         this.face = face;
         this.nipe = nipe;
         this.peso = peso;
@@ -38,8 +38,7 @@ public class Carta {
 
     @Override
     public String toString() {
-        return nipe + " de " + face + "\n";
+        return nipe + " de " + face + ", Vale: " + peso + " pontos " + "\n";
     }
-    
-    
+
 }
