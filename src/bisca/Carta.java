@@ -38,7 +38,7 @@ public class Carta {
 
     @Override
     public String toString() {
-        return nipe + " de " + face + ", Vale: " + peso + " pontos " + "\n";
+        return nipe + " de " + face + "\n";
     }
 
 }
