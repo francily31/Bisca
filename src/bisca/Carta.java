@@ -1,6 +1,6 @@
 package bisca;
 
-//extrutura das Cartas
+//estrutura das Cartas
 public class Carta {
     private String nipe;
     private String face;
