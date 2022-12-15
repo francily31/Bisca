@@ -45,9 +45,7 @@ int contarPontos(int[] mao) {
   return pontos;
 }
 
-   //bom dia3
-  //Bom Dia
-  //Bom Dia
+  
       
 
 
